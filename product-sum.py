@@ -1,5 +1,9 @@
 import unittest
 
+# O(n) time | O(d) space
+# where n is the total number of elements in the array,
+# including sub-elements, and d is the greatest depth of
+# "special" arrays in the array
 def productSum(array, multiplier = 1):
     sum = 0
     for element in array:
