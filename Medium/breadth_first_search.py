@@ -74,5 +74,6 @@ class TestProgram(unittest.TestCase):
         graph.children[4].addChild("M").addChild("N")
         self.assertEqual(graph.breadthFirstSearch([]), ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"])
 
+
 if __name__ == '__main__':
     unittest.main()
