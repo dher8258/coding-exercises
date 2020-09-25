@@ -1,5 +1,17 @@
 import unittest
 
+"""
+MihHeap class supports:
+ - Building a Min Heap from an input array of integers.
+ - Inserting integers in the heap.
+ - Removing the heap's minimum / root value.
+ - Peeking at the heap's minimum / root value.
+ - Sifting integers up and down the heap, which is to be used when
+ inserting and removing values.
+
+The heap is represented in form of an array.
+"""
+
 class MinHeap:
 	def __init__(self, array):
 		self.heap = self.buildHeap(array)
